@@ -9,6 +9,6 @@
         <h1>Home Page</h1>
         <b><label>Hello ${username}.</label></b>
         <br><br>
-        <a href="">Log out</a>
+        <a href="login?logout">Log out</a>
     </body>
 </html>
