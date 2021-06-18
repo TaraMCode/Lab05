@@ -7,12 +7,14 @@
     </head>
     <body>
         <h1>Login</h1>
-        <label>Username:</label>
-        <input type="text" name="contents_title" value="${username}">
-        <br>
-        <label>Password:</label>
-        <input type="text" name="contents_title" value="${password}">
-        <br>
-        <input type="submit" value="Log in">
+        <form method="post" action="login">
+            <label>Username:</label>
+            <input type="text" name="person_username" value="${username}">
+            <br>
+            <label>Password:</label>
+            <input type="text" name="person_password" value="${password}">
+            <br>
+            <input type="submit" value="Log in">
+        </form>
     </body>
 </html>

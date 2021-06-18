@@ -19,13 +19,18 @@ public class LoginServlet extends HttpServlet {
             throws ServletException, IOException {
 
         getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
-
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+        String moo = request.getParameter("person_username");
+        String woo = request.getParameter("person_password");
+        
+        if (moo == null || moo.equals("") || woo == null || woo.equals("")) {
+            response.sendRedirect("Hello");
+        }
 
     }
 }
