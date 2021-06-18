@@ -30,7 +30,7 @@ public class HomeServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        // no code needed here
+        // no code needed
 
     }
 }

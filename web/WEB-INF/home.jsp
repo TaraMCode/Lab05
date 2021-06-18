@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Home Page</h1>
-        <b><label>Hello ${username}.</label></b>
+        <b><label>Hello ${user}</label></b>
         <br><br>
         <a href="login?logout">Log out</a>
     </body>
